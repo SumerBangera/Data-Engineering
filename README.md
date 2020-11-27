@@ -37,8 +37,9 @@ Detailed tasks include:
     - write an ETL pipeline to transfer data from files in two local directories into these tables 
 
 
-# Schema for Song Play Analysis
+### Schema for Song Play Analysis
 The schema used for this exercise is the Star Schema with one main fact table and 4 dimentional tables
+![alt text](https://github.com/SumerBangera/Data-Engineering/blob/main/Star%20Schema.png?raw=true)
 
 #### Fact Table
 **songplays** - records in log data associated with song plays i.e. records with page NextSong
@@ -53,11 +54,6 @@ The schema used for this exercise is the Star Schema with one main fact table an
     - artist_id, name, location, latitude, longitude
 4. **time** - timestamps of records in songplays broken down into specific units
     - start_time, hour, day, week, month, year, weekday
-
-### Detailed Schema
-
-<img src="Star Schema.png.png" width="50%"/>
-
 
 # Files
 Details of the files used for the project:
