@@ -1,4 +1,5 @@
-# Data Engineering Nanodegree - [Udacity](https://www.udacity.com/course/data-engineer-nanodegree--nd027) (Nov 2020 - Apr 2021)
+# Data Engineering Nanodegree
+[Udacity](https://www.udacity.com/course/data-engineer-nanodegree--nd027) (Nov 2020 - Apr 2021)
 
 Repository of projects implemented as a part of the nanodegree.
 
