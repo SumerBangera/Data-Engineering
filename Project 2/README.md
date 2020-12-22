@@ -62,6 +62,6 @@ Details of the files used for the project:
 2. **event_datafile_new.csv** - denormalized dataset used to insert data into the Apache Cassandra tables
 3. **Project_1B_ Project_Template** - Python code for creating tables and developing the ETL process
 
-## Resources:
+## References:
 https://github.com/danieldiamond/udacity-dend
 https://github.com/Flor91/Data-engineering-nanodegree
