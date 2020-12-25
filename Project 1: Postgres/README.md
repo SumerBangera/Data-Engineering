@@ -39,7 +39,8 @@ Detailed tasks include:
 
 ### Schema for Song Play Analysis
 The schema used for this exercise is the Star Schema with one main fact table and 4 dimentional tables
-![alt text](https://github.com/SumerBangera/Data-Engineering/blob/main/Star%20Schema.png?raw=true)
+<img src="https://github.com/SumerBangera/Data-Engineering/blob/main/Project%201:%20Postgres/Star%20Schema.png"/>
+
 
 #### Fact Table
 **songplays** - records in log data associated with song plays i.e. records with page NextSong
