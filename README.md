@@ -6,3 +6,7 @@ Repository of projects implemented as a part of the nanodegree.
 ## Project 1: [Relational Data Modeling with PostgreSQL](https://github.com/SumerBangera/Data-Engineering/tree/main/Project%201:%20Postgres)
 
 ## Project 2: [NoSQL Data Modeling with Apache Cassandra](https://github.com/SumerBangera/Data-Engineering/tree/main/Project%202)
+
+## Project 3: [Database Warehousing with Amazon Redshift and S3](https://github.com/SumerBangera/Data-Engineering/tree/main/Project3%20-%20Redshift%2C%20S3)
+
+## Project 4: [Data Lake with Spark and Amazon S3](https://github.com/SumerBangera/Data-Engineering/tree/main/Project%204%20-%20Spark%2C%20S3%2C%20EMR)
