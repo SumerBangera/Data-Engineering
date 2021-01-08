@@ -78,7 +78,7 @@ Details of the files used for the project:
 3. **etl.py** reads and processes all files from log-data and song-data in the udacity-dend S3 bucket, processes them using Spark and loads them into S3 buckets as parquet files based on the above star schema.
 4. **dl.cfg** - config file containing all important details about AWS configuration required for the project. DO NOT share the AWS KEY and SECRET. 
 
-**Note** Create an S3 Bucket (here, sparkify-bucket2) to store the output data before running the above files on cloud.
+**Note:** Create an S3 Bucket (here, sparkify-bucket2) to store the output data before running the above files on cloud.
 
 
 ## Resources:
