@@ -82,9 +82,10 @@ Details of the files used for the project:
 
 
 ## Resources:
-Useful repos:
-https://github.com/danieldiamond/udacity-dend
-https://github.com/Flor91/Data-engineering-nanodegree
-https://github.com/PaladhiDinesh/Udacity-Data-Engineering-Nanodegree
+Useful repos:  
+https://github.com/danieldiamond/udacity-dend  
+https://github.com/Flor91/Data-engineering-nanodegree  
+https://github.com/PaladhiDinesh/Udacity-Data-Engineering-Nanodegree  
 
-Understanding monotonically_increasing_id : https://towardsdatascience.com/adding-sequential-ids-to-a-spark-dataframe-fa0df5566ff6
+Understanding monotonically_increasing_id:  
+https://towardsdatascience.com/adding-sequential-ids-to-a-spark-dataframe-fa0df5566ff6
