@@ -84,11 +84,10 @@ Details of the files used for the project:
 - Create a dashboard for analytic queries on new database
 
 # Resources:
-##### For details on TRUNCATECOLUMNS, BLANKSASNULL, EMPTYASNULL: https://docs.aws.amazon.com/redshift/latest/dg/copy-parameters-data-conversion.html 
+##### For details on TRUNCATECOLUMNS, BLANKSASNULL, EMPTYASNULL: 
+https://docs.aws.amazon.com/redshift/latest/dg/copy-parameters-data-conversion.html 
 
 ##### Useful repos:
 https://github.com/danieldiamond/udacity-dend
-
 https://github.com/Flor91/Data-engineering-nanodegree
-
 https://github.com/PaladhiDinesh/Udacity-Data-Engineering-Nanodegree
