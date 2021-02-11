@@ -80,7 +80,6 @@ Details of the files used for the project:
 
 **Note:** Create an S3 Bucket (here, sparkify-bucket2) to store the output data before running the above files on cloud.
 
-
 ## Resources:
 Useful repos:  
 https://github.com/danieldiamond/udacity-dend  
