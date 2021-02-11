@@ -1,4 +1,4 @@
-# Data Engineering Capstone Projec - Yelp Dataset
+# Data Engineering Capstone Project - Yelp Dataset
 ### Project Summary
 This project aims at employing skills developed through the nanodegree to build an efficient data pipeline using the Yelp dataset. 
 Primarily the project focuses on: 
