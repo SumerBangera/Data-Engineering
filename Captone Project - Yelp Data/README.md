@@ -108,7 +108,7 @@ Furthermore, additional quality checks have been implemented within the data pip
  * Unit tests for the scripts to ensure they are doing the right thing using custom SQL statementements in the DataQualityOperator
 
 #### 4.3 Data dictionary 
-Refer **ADD A FILE HERE** which provides a brief description of each field. 
+Refer [data_dictionary.txt](https://github.com/SumerBangera/Data-Engineering/blob/main/Captone%20Project%20-%20Yelp%20Data/data_dictionary.txt) which provides a brief description of each field. 
 
 
 ### Step 5: Additional details about the project
