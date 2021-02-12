@@ -89,7 +89,7 @@ List of steps necessary to pipeline the data into the above data model
 #### 4.1 Create the data model
 To enhance and automate the data pipeline, Apache Airflow is employed with relevant operators and helper functions. The ETL DAG graph created for this project is as given below:
 
-## INSERT DAG GRAPH SCREENSHOT
+<img src="https://github.com/SumerBangera/Data-Engineering/blob/main/Captone%20Project%20-%20Yelp%20Data/images/DAG.png"/>
 
 Details about each operator and helper function in the DAG is given below:
 1. **create_tables.py** - contains all the necessray CREATE statements to create the data model tables
