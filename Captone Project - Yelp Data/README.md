@@ -48,7 +48,8 @@ Map out the conceptual data model and explain why you chose that model
 
 The schema used for this project is the Star Schema with one main fact table and 3 dimentional tables as described below
 
-## INSERT SCHEMA IMAGE HERE
+<img src="https://github.com/SumerBangera/Data-Engineering/blob/main/Captone Project - Yelp Data/images/Schema.png"/>
+
 
 #### Fact Table
 **reviews** - records of each review given to the restaurants in the database
