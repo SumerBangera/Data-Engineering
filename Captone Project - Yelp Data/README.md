@@ -36,14 +36,6 @@ These files were then uploaded to an Amazon S3 bucket for data storage before cr
 ### Step 2: Explore and Assess the Data -------------------------------------------------------------------------------------------------------------------
 Please refer the yelp_data_prep.ipynb (Jupyter Notebook) for detailed steps
 
-#### Explore the Data 
-Identify data quality issues, like missing values, duplicate data, etc.
-
-#### Cleaning Steps
-Document steps necessary to clean the data
-
-### -------------------------------------------------------------------------------------------------------------------
-
 ### Step 3: Define the Data Model
 #### 3.1 Conceptual Data Model
 The schema used for this project is the Star Schema with one main fact table and 3 dimentional tables as described below
