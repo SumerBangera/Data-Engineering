@@ -34,6 +34,8 @@ These files were then uploaded to an Amazon S3 bucket for data storage before cr
 
 
 ### Step 2: Explore and Assess the Data -------------------------------------------------------------------------------------------------------------------
+Please refer the yelp_data_prep.ipynb (Jupyter Notebook) for detailed steps
+
 #### Explore the Data 
 Identify data quality issues, like missing values, duplicate data, etc.
 
