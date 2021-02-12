@@ -33,7 +33,7 @@ The final prepared files include: filetype (rows, columns)
 These files were then uploaded to an Amazon S3 bucket for data storage before creating the data warehouse on Amazon Redshift.
 
 
-### Step 2: Explore and Assess the Data -------------------------------------------------------------------------------------------------------------------
+### Step 2: Explore and Assess the Data
 Please refer the yelp_data_prep.ipynb (Jupyter Notebook) for detailed steps
 
 ### Step 3: Define the Data Model
