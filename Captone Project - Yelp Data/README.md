@@ -116,13 +116,16 @@ Refer **ADD A FILE HERE** which provides a brief description of each field.
 **Amazon Redshift** is used as the data warehouse to easily connect to the data in S3 buckets and ability to scale up/down the number of nodes as required
 **Airflow** is used to run the ETL due to its powerful scheduling and monitoring features
 
-Given the above technologies, data can be updated 
 
-* Propose how often the data should be updated and why.
-* Write a description of how you would approach the problem differently under the following scenarios:
- * The data was increased by 100x.
- * The data populates a dashboard that must be updated on a daily basis by 7am every day.
- * The database needed to be accessed by 100+ people.
+#### Scenario Analysis:
+Eventually this project may have to address the following scenarios as the data grows:
+
+**The data was increased by 100x**: This project uses cloud technologies like Amazon S3 and Redshift to store and process the data. The main advantage of these technologies is the ability to scale up/down the resources required to store and process the data. Amazon EMR can be explored as well. 
+
+**The pipelines would be run on a daily basis by 7am every day**: Apache Airflow implemented in the project provides great flexibility and ability to schedule the data pipelines. To meet this requirement, the parameters in the DAG can be changed to run daily using the schedule_interval parameter. 
+
+**The database needed to be accessed by 100+ people**: Given the above cloud technologies, data can be accessed without any issues.   
+
 
 ## Future work:
 1. Design an Analytics dashboard in Tableau/Metabase
