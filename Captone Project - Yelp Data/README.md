@@ -46,8 +46,6 @@ Document steps necessary to clean the data
 
 ### Step 3: Define the Data Model
 #### 3.1 Conceptual Data Model
-Map out the conceptual data model and explain why you chose that model
-
 The schema used for this project is the Star Schema with one main fact table and 3 dimentional tables as described below
 
 <img src="https://github.com/SumerBangera/Data-Engineering/blob/main/Captone Project - Yelp Data/images/Schema.png"/>
