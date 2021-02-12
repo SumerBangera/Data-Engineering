@@ -9,7 +9,7 @@ Primarily the project focuses on:
 * automating the ETL pipeline using Apache Airflow
 
 The project includes the following steps:
-* Step 1: Scope the Project and Gather Data
+* [Step 1: Scope the Project and Gather Data](#Step-1:-Scope-the-Project-and-Gather-Data)
 * Step 2: Explore and Assess the Data
 * Step 3: Define the Data Model
 * Step 4: Run ETL to Model the Data
