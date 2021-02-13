@@ -113,11 +113,15 @@ Refer [data_dictionary.txt](https://github.com/SumerBangera/Data-Engineering/blo
 #### Scenario Analysis:
 Eventually this project may have to address the following scenarios as the data grows:
 
-**The data was increased by 100x**: This project uses cloud technologies like Amazon S3 and Redshift to store and process the data. The main advantage of these technologies is the ability to scale up/down the resources required to store and process the data. Amazon EMR can be explored as well. 
+**The data was increased by 100x**: This project uses cloud technologies like Amazon S3 and Redshift to store and process the data. The main advantage of these technologies is the ability to scale up/down the resources required to store and process the data. 
+Currently, the data is stored in relational databases optimized for quick queries by an Analytics dashboard and to support the NLP-related tasks. However, if data size increases by 100x and the queries become diverse, we would need to consider the option of building a data lake to store the unstructured data (reviews text and photos) which can support the additional analytics queries. We could also explore Amazon EMR for running big data frameworks, such as Apache Hadoop and Apache Spark on AWS to process and analyze the vast amounts of data.
 
-**The pipelines would be run on a daily basis by 7am every day**: Apache Airflow implemented in the project provides great flexibility and ability to schedule the data pipelines. To meet this requirement, the parameters in the DAG can be changed to run daily using the schedule_interval parameter. 
+**The pipelines would be run on a daily basis by 7am every day**: Apache Airflow implemented in the project provides great flexibility and ability to schedule the data pipelines. To meet this requirement, the parameters in the DAG can be changed to run daily using the schedule_interval parameter.
+In case of DAG failure, logging info has been used extensively throughout the code which can be used to debug the code. Moreover, in such a case, the dashboard should be updated with the latest, most-updated data.
 
-**The database needed to be accessed by 100+ people**: Given the above cloud technologies, data can be accessed without any issues.   
+**The database needed to be accessed by 100+ people**: Given the above cloud technologies, we can scale up the resources to meet the increased demand for access. 
+Moreover, we could enable the Concurrency Scaling feature in Redshift which can support virtually unlimited concurrent users and concurrent queries, with consistently fast query performance. In this feature, Redshift automatically adds additional cluster capacity when we need it to process an increase in concurrent read queries. The cost benefit of this is that we are only charged for concurrency scaling clusters only for the time they are in use. More details about this feature can be found here: https://docs.aws.amazon.com/redshift/latest/dg/concurrency-scaling.html 
+     
 
 
 ## Future work:
