@@ -1,0 +1,6 @@
+Following references used to fix issues in the code:
+
+1. Student forum
+2. https://github.com/Flor91/Data-engineering-nanodegree
+3. https://github.com/danieldiamond/udacity-dend
+
